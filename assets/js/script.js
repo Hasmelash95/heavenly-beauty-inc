@@ -7,6 +7,7 @@ const firstValid = document.getElementById('first-valid');
 const lastValid = document.getElementById('last-valid');
 const ageValid = document.getElementById('age-valid');
 const emailValid = document.getElementById('email-valid');
+const presentYear = document.getElementById('current-year');
 
 // Form validation 
 
@@ -48,4 +49,7 @@ function submitCheck() {
         }
     }
 }
+
+let today = new Date().getFullYear();
+presentYear.innerHTML = today;
 
