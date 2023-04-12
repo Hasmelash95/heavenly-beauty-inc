@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Heavenly Beauty provides cheap beauty tips and tricks">
+      <meta name="keywords" content="Beauty regimen, Beauty tips, Cheap regimen">
+      <meta name="author" content="Hermon Asmelash">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Heavenly Beauty | Subscribe</title>
+   </head>
+   <header class="mb-auto">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+         <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Heavenly Beauty</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active" aria-current="page" href="hacks.html">Beauty Hacks</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="subscribe.html">Subscribe</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <div>
+    <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+       <fieldset>
+          <legend>Personal Details:</legend>
+          <div>
+             <label for="first-name" class="bold-label">First Name*</label>
+             <input type="text" class="name" id="first-name" name="first-name" placeholder="Enter First Name" required>
+          </div>
+          <br>
+          <div>
+             <label for="last-name" class="bold-label">Last Name*</label>
+             <input type="text" class="name" id="last-name" name="last-name" placeholder="Enter Last Name" required>
+          </div>
+          <br>
+          <div>
+             <label for="age" class="bold-label">Age*</label>
+             <input type="number" id="age" name="age" min="18" max="120" placeholder="e.g. 18" required>
+          </div>
+          <br>
+          <div>
+             <label for="gender" class="bold-label">Gender</label>
+             <select id="gender" name="gender">
+                <option value="female">Female</option>
+                <option value="male">Male</option>
+                <option value="other">Other</option>
+             </select>
+          </div>
+          <br>
+          <div>
+             <label for="email" class="bold-label">Email*</label>
+             <input type="email" id="email" name="email" placeholder="Enter Email" required>
+          </div>
+       </fieldset>
+       <br>
+       <fieldset>
+          <legend>Additional Information:</legend>
+          <div>
+             <label for="skin" class="bold-label">What skin type do you have?</label>
+             <select id="skin" name="skin">
+                <option value="normal">Normal</option>
+                <option value="sensitive">Sensitive</option>
+                <option value="dry">Dry</option>
+                <option value="oily">Oily</option>
+                <option value="combination">Combination</option>
+             </select>
+          </div>
+          <br>
+          <div>
+             <label for="undertone" class="bold-label">What is your skin's undertone?</label>
+             <select id="undertone" name="undertone">
+                <option value="Cool">Cool</option>
+                <option value="Warm">Warm</option>
+                <option value="Neutral">Neutral</option>
+             </select>
+          </div>
+          <br>
+          <div>
+             <label for="routine" class="bold-label">How often do you apply makeup every week?</label>
+             <select id="routine" name="routine">
+                <option value="once-a-week">Once a Week</option>
+                <option value="twice-a-week">Twice a Week</option>
+                <option value="several-days">Several Days a Week</option>
+                <option value="every-day">Every Day</option>
+             </select>
+          </div>
+          <br>
+          <div>
+             <label for="style" class="bold-label">What's your preferred style?</label>
+             <select id="style" name="style">
+                <option value="natural">Natural</option>
+                <option value="dramatic">Dramatic</option>
+                <option value="glamorous">Glamorous</option>
+                <option value="sweet">Sweet</option>
+                <option value="quirky">Quirky</option>
+             </select>
+          </div>
+          <br>
+          <!-- This may seem like a lot but the level of detail will give the user confidence that the personalised
+             beauty regimine is well thought out and authentic -->
+          <div class="checkbox-label">Which of these products do you own? (Select all that apply)</div>
+          <div class="checkboxes">
+             <div class="checkbox">
+                <input type="checkbox" id="foundation" name="foundation" value="yes">
+                <label for="foundation">Foundation</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="leyeliner" name="leyeliner" value="yes">
+                <label for="leyeliner">Liquid Eyeliner</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="peyeliner" name="peyeliner" value="yes">
+                <label for="peyeliner">Pencil Eyeliner</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="eyeshadow" name="eyeshadow" value="yes">
+                <label for="eyeshadow">Eyeshadow</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="concealer" name="concealer" value="yes">
+                <label for="concealer">Concealer</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="powder" name="powder" value="yes">
+                <label for="powder">Powder</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="primer" name="primer" value="yes">
+                <label for="primer">Primer</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="lipstick" name="lipstick" value="yes">
+                <label for="lipstick">Lipstick</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="lipgloss" name="lipgloss" value="yes">
+                <label for="lipgloss">Lipgloss</label>
+             </div>
+          </div>
+          <br>
+          <div class="checkbox-label">Which of these brands have you used? (Select all that apply)</div>
+          <div class="checkboxes">
+             <div class="checkbox">
+                <input type="checkbox" id="beauty-bay" name="beauty-bay" value="yes">
+                <label for="beauty-bay">Beauty Bay</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="revolution" name="revolution" value="yes">
+                <label for="revolution">Revolution Beauty</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="nyx" name="nyx" value="yes">
+                <label for="nyx">Nyx Cosmetics</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="lottie" name="lottie" value="yes">
+                <label for="lottie">Lottie London</label>
+             </div>
+             <div class="checkbox">
+                <input type="checkbox" id="loreal" name="loreal" value="yes">
+                <label for="loreal">L'Oréal Paris</label>
+             </div>
+          </div>
+       </fieldset>
+       <br>
+       <!-- Submit button -->
+       <div>
+          <button type="submit"><i class="fa-solid fa-cloud"></i> Subscribe <i class="fa-solid fa-cloud"></i></button>
+       </div>
+    </form>
+ </div>
+   <footer class="sticky-bottom d-flex flex-wrap justify-content-between align-items-center container-fluid py-3 my-4">
+    <!-- Logos are visually appealing but the aria-label is there for the visually impared -->
+    <div class="col-md-4 d-flex align-items-center">
+       <span>© Heavenly Beauty 2022</span>
+    </div>
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+    <li class="ms-3 p-1 fs-4">
+       <a href="https://facebook.com" aria-label="Link opens to Facebook page in a new tab." target="_blank"
+          rel="noopener"><i class="fa-brands fa-facebook"></i></a>
+    </li>
+    <li class="ms-3 p-1 fs-4">
+       <a href="https://instagram.com" aria-label="Link opens to Instagram page in a new tab." target="_blank"
+          rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+    </li>
+    <li class="ms-3 p-1 fs-4">
+       <a href="https://discord.com" aria-label="Link opens to Discord page in a new tab." target="_blank"
+          rel="noopener"><i class="fa-brands fa-discord"></i></a>
+    </li>
+    </div>
+ </footer>
+ <!-- Font awesome -->
+ <script src="https://kit.fontawesome.com/86de956f5a.js" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ </body>
+</html>

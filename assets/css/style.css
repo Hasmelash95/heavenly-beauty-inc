@@ -6,7 +6,39 @@
 
 body {
 	height: 100vh;
+	font-family: "Verdana", Geneva, Tahoma, sans-serif;
+	overflow-x: hidden;
 }
+
+h1, 
+h2,
+h3 {
+	font-family: "Georgia", serif;
+}
+
+.hero {
+	height: 50%;
+}
+
+.hero-text {
+	background-color: rgba(151, 134, 137, 0.6);
+	height: 200px;
+	padding: 20px;
+
+	opacity: 1;
+	animation: fadeinwards 3s;
+}
+
+@keyframes fadeinwards {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
 
 .toggler-btn {
     width: 80px;
@@ -14,7 +46,40 @@ body {
 }
 
 .cover-container {
-	background: rgb(227, 214, 216) url('../images/compact.webp') no-repeat center center;
+	background: rgb(227, 214, 216) url("../images/compact.webp") no-repeat center center;
 	background-size: cover;
 }
 
+.makeup-tips-img {
+	height: 700px;
+	width: auto;
+}
+
+.skincare-tips-img {
+	height: 800px;
+}
+
+li {
+	list-style: none;
+}
+
+#brands {
+	background: white url("../images/purple-lipstick.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color:rgb(216, 221, 223);
+}
+
+footer i {
+	color: black;
+}
