@@ -39,6 +39,10 @@ h3 {
 	}
 }
 
+.form-container {
+	background: url("../images/white-hall.jpg") no-repeat center center;
+	background-size: cover;
+}
 
 .toggler-btn {
     width: 80px;
@@ -51,7 +55,7 @@ h3 {
 }
 
 .makeup-tips-img {
-	height: 700px;
+	height: 800px;
 	width: auto;
 }
 
@@ -74,6 +78,11 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.form-control,
+.form-select {
+	width: 50%;
 }
 
 footer {
